@@ -20,8 +20,8 @@ export const InputContainer = styled.div`
         background-color: #AAAAFF;
         border: 0;
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        flex-direction: collum;
+        align-items: center;
 
         padding: 0 10px;
         color: #FFF;

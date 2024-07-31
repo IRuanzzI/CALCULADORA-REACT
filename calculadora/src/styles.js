@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div `
+export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color:;
 
 
     display: flex;
@@ -12,7 +12,7 @@ export const Container = styled.div `
 `
 
 export const Content = styled.div`
-    background-color: #cacaca;
+    background-color: #cacac;
     width: 50%;
 `
 
@@ -27,8 +27,15 @@ export const Row = styled.div`
 export const Column = styled.div`
 
     display: flex;
-    flex-direction: row;
+    flex-direction: collum;
     justify-content: space-between;
     align-items: center;
+`
 
+
+export const Div = styled.div`
+ border: 0.25rem solid white;
+ border-radius: 10px;
+ padding:5px;
+ background-color:white;
 `

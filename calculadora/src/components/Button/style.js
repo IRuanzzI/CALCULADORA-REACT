@@ -7,10 +7,11 @@ export const ButtonContainer = styled.button`
     color: #FFF;
     font-size: 24px;
     font-weight:700;
-    flex: 1;
+    flex: 2;
 
     &: hover{
-        opacity: 0.6;
+        opacity: 0.7;
+        color: yellow;
     }
 
 `
